@@ -1,0 +1,12 @@
+{
+  "name": "proyecto-guarderia",
+  "version": "1.0.0",
+  "description": "primer proyecto con html, css y js",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "script.js"
+  },
+  "author": "",
+  "license": "MIT"
+}

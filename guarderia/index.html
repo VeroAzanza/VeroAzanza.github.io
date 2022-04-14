@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Proyecto inicial</title>
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+	<!-- jquery -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+	
+</head>
+<body>
+	<span class="ir-arriba icon-arrow-up2"><img src="imagenes/_arrow_up_icon.png" alt=""></span>
+	<header>
+		<nav id="menu" class="navbar fixed-top navbar-expand-lg">
+			<a class="navbar-brand" href="index.html"><img src="imagenes/perro-logo.png" alt="pata_logo"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+			  	<img src="imagenes/menu.png" alt="menu" class="navbar-toggler-icon">
+			</button>
+			<div class="collapse navbar-collapse" id="navbarScroll">
+				<ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
+					<li class="nav-item">
+						<a class="nav-link" href="#About">Quienes somos</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#Services">Servicios</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#FAQS">Info</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#Contact">Contacto</a>
+					</li>
+				</ul>
+				<div class="nav-item redes">
+					<a href="https://es-la.facebook.com/"><img src="imagenes/facebook.svg" alt="facebook"></a>
+					<a href="https://www.instagram.com/"><img src="imagenes/instagram.svg" alt="instagram"></a>
+				</div>
+			</div>
+		</nav>
+		<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner">
+				<div id="Guarderia" class="carousel-item active">
+					<img src="imagenes/refugio.jpg" class="d-block w-100" alt="guarderia">
+				</div>
+				<div id="Veterinaria" class="carousel-item">
+					<img src="imagenes/veterinaria.jpg" class="d-block w-100" alt="veterinaria">
+				</div>
+				<div id="Peluqueria" class="carousel-item">
+					<img src="imagenes/ducha.jpg" class="d-block w-100" alt="peluqueria">
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+			  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			  <span class="sr-only">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+			  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			  <span class="sr-only">Next</span>
+			</button>
+		</div>	
+	</header>
+	<main>
+		<div id="About" class="container">
+			<div class="titulo">
+				<h2 class="title-about"><span class="contenedor-titulo">SOBRE NOSOTROS</span></h2>
+			</div>
+			<div class="row">
+				<div class="col-6 nosotros">
+					<span class="text-nosotros">¡Bienvenidos a <span class="typed"></span></span><br><br>
+					<span class="texto-bienvenida">Somos un equipo de 20 personas, amantes de los animales y sobre todo de los perritos.
+						Desde hace años nos venimos formando y preparando para el cuidado de ellos, brindando mucho amor, cariño y respeto.
+					</span><br><br>
+					<span>
+						Tenemos preparado un lugar único para que su estadía, cambio de look, paseo o cuidado de su salud sean de calidad.
+						¡Son todos bienvenidos, los esperamos con brazos abiertos y con muchas ganas de acompañarlos durante el día!
+					</span>
+				</div>
+				<div class="slide-animal col-6">
+					<div class="img-perros">
+						<img src="imagenes/chihuahua-dogs.jpg" alt="chihuahua">
+					</div>	
+				</div>
+			</div>
+		</div>
+		<div id="Services" class="container">
+			<div class="row">
+				<div class="col">
+					<div class="card-group">
+						<div class="card">
+							<div class="cara-delantera">
+								<div class="card-body">
+									<img src="imagenes/casa.png" alt="casita">
+									<h4 class="card-text">GUARDERIA</h4>
+								</div>
+							</div>
+							<div class="cara-trasera">
+								<div class="card-body">
+									<p class="card-text">¡Los hacemos sentir como en casa!</p>
+									<p class="card-text">LUNES - VIERNES | 08hs a 18hs</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card-group">
+						<div class="card">
+							<div class="cara-delantera">
+								<div class="card-body">
+									<img src="imagenes/paseo-perro.png" alt="paseos">
+									<h4 class="card-text">PASEOS</h4>
+								</div>
+							</div>
+							<div class="cara-trasera">
+								<div class="card-body">
+									<p class="card-text">¡Les brindamos a las personas más capacitadas para su paseo diario!</p>
+									<p class="card-text">LUNES - VIERNES | 8:30hs a 11:30 y 16:00hs a 19:00hs</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card-group">
+						<div class="card">
+							<div class="cara-delantera">
+								<div class="card-body">
+									<img src="imagenes/medicina.png" alt="veterinaria">
+									<h4 class="card-text">VETERINARIA</h4>
+								</div>
+							</div>
+							<div class="cara-trasera">
+								<div class="card-body">
+									<p class="card-text">¡Cuidar su salud es primordial!</p>
+									<p class="card-text">LUNES - SÁBADOS | 8:00hs a 23:00hs</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card-group">
+						<div class="card">
+							<div class="cara-delantera">
+								<div class="card-body">
+									<img src="imagenes/peluqueria.png" alt="peluqueria">
+									<h4 class="card-text">PELUQUERÍA</h4>
+								</div>
+							</div>
+							<div class="cara-trasera">
+								<div class="card-body">
+									<p class="card-text">¡Hacemos resaltar su belleza!</p>
+									<p class="card-text">LUNES - VIERNES | 8:30hs a 11:30 y 16:00hs a 19:00hs</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="FAQS" class="container">
+			<div class="titulo-preguntas">
+				<h2 class="title-about"><span class="contenedor-titulo">INFO UTIL</span></h2>
+				<p>¿Tienes alguna pregunta? Por favor, revisa las preguntas frecuentes. Si no encuentras tu respuesta, por favor, ponte en contacto con nosotros.</p>
+			</div>
+			<ul class="faq">
+				<li id="item-1" class="faq-item">
+					<h6 class="faq-titulo">¿Aceptan a todas las razas?</h6>
+					<div class="faq-content"><p>Son todos bienvenidos, aquí no discriminamos raza, color y edad</p></div>
+				</li>
+				<li id="item-2" class="faq-item">
+					<h6 class="faq-titulo">¿Atienden todo el año?</h6>
+					<div class="faq-content"><p>Excepto feriados y festivos. ¡Los recibimos durante todo el año!</p></div>
+				</li>
+				<li id="item-3" class="faq-item">
+					<h6 class="faq-titulo">¿Cuáles son las tarifas?</h6>
+					<div class="faq-content"><p>Guardería: $1000 p/h | Paseos: $500 p/h | Peluquería: a partir de $1500 | Veterinaria: contactanos para consulta personalizada</p></div>
+				</li>
+				<li id="item-4" class="faq-item">
+					<h6 class="faq-titulo">¿Métodos de pago disponibles?</h6>
+					<div class="faq-content"><p>Tarjetas de crédito / débito - MercadoPago - Efectivo</p></div>
+				</li>
+			</ul>
+		</div>
+		<div id="Contact" class="container">
+			<div class="row">
+				<div class="info-numeros col">
+					<div class="redes-sociales">
+						<span><img src="imagenes/whatsapp.svg" alt="whatsapp">+54 362 4937063</span>
+						<span><a href="https://es-la.facebook.com/"><img src="imagenes/facebook.svg" alt="facebook"></a><a href="https://www.instagram.com/"><img src="imagenes/instagram.svg" alt="instagram"></a></span>
+					</div>
+					<div class="mapa">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3540.035243760728!2d-58.98355498526002!3d-27.468162123213105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94450cc25d75eceb%3A0xb4047576c6f03410!2sAv.%20Castelli%201341%2C%20Resistencia%2C%20Chaco!5e0!3m2!1ses-419!2sar!4v1649190161909!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</div>
+				</div>
+				<div class="container-contact col">
+					<a id="Contacto"></a>
+					<div class="form-contacto">
+						<h4>Envianos tus dudas</h4>
+						<form method="post">
+							<div class="form-group input-text">
+								<input type="email" class="form-control input" placeholder="Correo electrónico" required regex="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/">
+								<span class="label">Correo electrónico</span>
+							</div>
+							<div class="form-group input-text-select">
+								<select class="form-control input">
+									<option>Guardería</option>
+									<option>Veterinaria</option>
+									<option>Peluquería</option>
+									<option>Paseos</option>
+								</select>
+								<span class="label">Asunto</span>
+							</div>
+							<div class="form-group input-text">
+								<textarea class="form-control input-textarea" rows="5" placeholder="Mensaje" required maxlength="150"></textarea>
+								<span class="label">Mensaje</span>
+							</div>
+							<input class="submit" type="submit" value="Enviar">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</main>
+<!-- 	<footer>
+		<p><a href="mailto:azanzaveronica@gmail.com, azanzaveronica@hotmail.com?subject=Consulta por servicio" title="Vínculo al email">azanzaveronica@gmail.com</a></p>
+	</footer> -->
+	
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
