@@ -133,12 +133,11 @@ main {
 	padding: 60px 40px 80px 40px;
 	max-width: 100% !important;
 	height: auto;
-	max-height: 800px;
-	padding-bottom: 60px;
 	background-color: #E8E8E2;
 }
 #About .titulo {
 	padding-bottom: 80px;
+	display: flex;
 }
 
 .contenedor-titulo {
@@ -152,14 +151,18 @@ main {
 	display: flex;
 	justify-content: center;
 	font-weight: 500;
+	width: 100%;
 }
 
 #About .img-perros {
 	width: 100%;
-	height: 100%;
+	height: auto;
+	display: flex;
 }
 
 #About .slide-animal img {
+	min-width: 400px;
+    max-width: 500px;
 	width: 100%;
 	height: auto;
 	border-radius: 20px;
@@ -170,11 +173,22 @@ main {
 
 #About .nosotros {
 	text-align: justify;
+	padding-bottom: 40px;
+	min-width: 40%;
 }
 
 #About .text-nosotros {
-	width: 40%;
-	font-size:  calc(0.55em + 1vw);
+	font-size: 3vmin;
+	display: flex;
+}
+
+#About .typed {
+	margin-left: 5px;
+}
+
+#About .texto-bienvenida {
+	font-size: 2.5vmin;
+	display: flex;
 }
 
 .palabras {
