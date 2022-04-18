@@ -32,10 +32,14 @@ header {
 
 .navbar-collapse.show {
 	display: block;
+	background-color: black;
 }
-.navbar-collapse.show .nav-item.redes{
+.navbar-collapse.show a{
+	color: white;
+}
+/* .navbar-collapse.show .nav-item.redes{
 	display: none;
-}
+} */
 
 
 .navbar {
@@ -155,14 +159,14 @@ main {
 }
 
 #About .img-perros {
-	width: 100%;
 	height: auto;
 	display: flex;
+	width: calc(100% - 30px);
+    max-width: 700px;
+    min-width: 310px;
 }
 
 #About .slide-animal img {
-	min-width: 400px;
-    max-width: 500px;
 	width: 100%;
 	height: auto;
 	border-radius: 20px;
@@ -178,7 +182,7 @@ main {
 }
 
 #About .text-nosotros {
-	font-size: 3vmin;
+	font-size: 4.5vmin;
 	display: flex;
 }
 
@@ -187,7 +191,7 @@ main {
 }
 
 #About .texto-bienvenida {
-	font-size: 2.5vmin;
+	font-size: 3.8vmin;
 	display: flex;
 }
 
@@ -242,7 +246,7 @@ main {
 #Services .card-group .card .card-body{
 	width: 100%;
 	text-align: center;
-	font-size: 90%;
+	font-size: 85%;
 }
 
 #Services .card-group .card .cara-delantera{
@@ -259,7 +263,7 @@ main {
 
 #Services .card-group .card .cara-delantera .card-text{
 	color: #AB734C;
-	font-size: calc(0.55em + 1vw);
+	font-size: calc(0.55em + 2vw);
 }
 #Services .card-group .card .cara-delantera img{
 	width: calc(1.5em + 1vw);;
