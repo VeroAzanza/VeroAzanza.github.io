@@ -33,13 +33,15 @@ header {
 .navbar-collapse.show {
 	display: block;
 	background-color: black;
+	margin-right: 15%;
+	opacity: 0.7;
 }
 .navbar-collapse.show a{
 	color: white;
 }
-/* .navbar-collapse.show .nav-item.redes{
+.navbar-collapse.show .nav-item.redes{
 	display: none;
-} */
+}
 
 
 .navbar {
@@ -63,7 +65,7 @@ header {
   }
   
    .navbar-nav::-webkit-scrollbar:vertical {
-	width:10px;
+	width:8px;
   }
   
    .navbar-nav::-webkit-scrollbar-button:increment, .navbar-nav::-webkit-scrollbar-button {
@@ -71,13 +73,13 @@ header {
   } 
   
    .navbar-nav::-webkit-scrollbar:horizontal {
-	height: 10px;
+	height: 8px;
   }
   
    .navbar-nav::-webkit-scrollbar-thumb {
-	background-color: transparent;
+	background-color: white;
 	border-radius: 20px;
-	border: 1px solid transparent;
+	border: 1px solid black;
   }
   
    .navbar-nav::-webkit-scrollbar-track {
@@ -139,6 +141,11 @@ main {
 	height: auto;
 	background-color: #E8E8E2;
 }
+
+#About .row {
+	align-items: center;
+}
+
 #About .titulo {
 	padding-bottom: 80px;
 	display: flex;
@@ -162,8 +169,13 @@ main {
 	height: auto;
 	display: flex;
 	width: calc(100% - 30px);
-    max-width: 700px;
+    max-width: 650px;
     min-width: 310px;
+}
+
+#About .slide-animal {
+	display: flex;
+	justify-content: center;
 }
 
 #About .slide-animal img {
@@ -182,7 +194,7 @@ main {
 }
 
 #About .text-nosotros {
-	font-size: 20px;
+	font-size: 18px;
 	display: flex;
 }
 
@@ -333,6 +345,13 @@ main {
 	height: auto;
 	padding: 50px 50px;
 	background-color: #E8E8E2;
+}
+
+@media (min-width: 650px) {
+	#Contact .row {
+		padding-left: 20%;
+		padding-right: 15%;
+	}
 }
 
 #Contact .container-contact {
